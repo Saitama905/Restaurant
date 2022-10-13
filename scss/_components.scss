@@ -1,6 +1,8 @@
+
 .hamburger-menu {
     width: 40px;
     height: 40px;
+background-color: red;
     position: fixed;
     top: 10%;
     right: 5%;
@@ -46,6 +48,10 @@
     font-size: 50px;
     color: $color-secondary;
     @include textStyles;
+    @media (max-width : 1200px) {
+        width: 900px;
+        height: 400px;
+    }
 
 }
 
